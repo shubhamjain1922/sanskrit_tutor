@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Sanskrit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+
+    .nav {
+      height: 50px;
+      width: 100%;
+      background-color: #4d4d4d;
+      position: relative;
+    }
+
+    .nav-links {
+      margin-left: auto; 
+    }
+
+    .nav-title {
+      margin-right: auto; 
+    }
+
+    .nav > .nav-header {
+      display: inline;
+    }
+
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+
+    .nav > .nav-btn {
+      display: none;
+    }
+
+    .nav > .nav-links {
+      display: inline;
+      float: right;
+      font-size: 18px;
+    }
+
+    .nav > .nav-links > a {
+      display: inline-block;
+      padding: 13px 10px 12px 10px;
+      text-decoration: none;
+      color: #efefef;
+    }
+
+    .nav > .nav-links > a:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav > #nav-check {
+      display: none;
+    }
+
+    @media (max-width:1050px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
+    }
+    .wrapper {
+      background: url(footer11.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;  
+      text-align: center;
+      align-items: center;
+      padding: 20px 50px;
+      color: white;
+      /*background-color: #e27d60;*/
+    }
+    hr {
+      width: 30%;
+      margin: 10px auto;
+    }
+
+    .details {
+      padding: 20px;
+      text-align: center;
+      align-items: center;
+      background: url(footer6.jfif);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .person {
+      margin: 10px auto;
+      text-align: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .personphoto {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      border: 1px solid black;
+      margin: 10px auto;
+    }
+    .kush {
+      background: url(kush.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+    .sanial {
+      background: url(sanial.jfif);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+
+    .shubham {
+      background: url(shubham.jfif);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+
+    .rahul  {
+      background: url(rahul.jfif);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+
+    .javeed  {
+      background: url(javeed.jfif);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .call-button {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        About Us
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="../index.html" ><b>HOME</b></a>
+      <a href="aboutus.html" ><b>ABOUT US</b></a>
+      <a href="../dictionary/index.html" ><b>DICTIONARY</b></a>
+      <a href="../quiz/index.html" ><b>QUIZ</b></a>
+      <a href="../trans/index.html" ><b>TRANSLATOR</b></a>
+      <a href="../pronun/index.html" ><b>PRONUNCIATION</b></a>
+    </div>
+  </div>
+
+  <div class="container-fluid wrapper">
+    <h1>Sanskrit<hr></h1>
+    <p>Sanskrit is a classical language of South Asia belonging to the Indo-Aryan branch of the Indo-European languages. It arose in South Asia after its predecessor languages had diffused there from the northwest in the late Bronze Age. Sanskrit is also the sacred language of Hinduism, the language of classical Hindu philosophy, and of historical texts of Buddhism and Jainism. It was a link language in ancient and medieval South Asia, and upon transmission of Hindu and Buddhist culture to Southeast Asia, East Asia and Central Asia in the early medieval era, it became a language of religion and high culture, and of the political elites in some of these regions. As a result, Sanskrit had a lasting impact on the languages of South Asia, Southeast Asia and East Asia, especially in their formal and learned vocabularies.
+      <br>
+      <br>
+      Sanskrit generally connotes several Old Indo-Aryan varieties. The most archaic of these is Vedic Sanskrit found in the Rig Veda, a collection of 1,028 hymns composed between 1500 BCE and 1200 BCE by Indo-Aryan tribes migrating east from what today is Afghanistan across northern Pakistan and into northern India. Vedic Sanskrit interacted with the preexisting ancient languages of the subcontinent, absorbing names of newly encountered plants and animals; in addition, the ancient Dravidian languages influenced Sanskrit's phonology and syntax. "Sanskrit" can also more narrowly refer to Classical Sanskrit, a refined and standardized grammatical form that emerged in the mid-1st millennium BCE and was codified in the most comprehensive of ancient grammars, the Aṣṭādhyāyī ("Eight chapters") of Pāṇini. The greatest dramatist in Sanskrit Kalidasa wrote in classical Sanskrit, and the foundations of modern arithmetic were first described in classical Sanskrit. The two major Sanskrit epics, the Mahabharata and the Ramayana, however, were composed in a range of oral storytelling registers called Epic Sanskrit which was used in northern India between 400 BCE and 300 CE, and roughly contemporary with classical Sanskrit. In the following centuries Sanskrit became tradition bound, stopped being learned as a first language, and ultimately stopped developing as a living language.
+    </p>
+  </div>
+
+  <div class="container-fluid details">
+    <div class="row">
+      <h1>Contact Us <hr></h1>
+      <div class="col-md-3 col-sm-5 col-xs-12 person">
+        <div class="personphoto kush"></div>
+        <h3>Kush jaiswal</h3>
+        <h5>(Backend)</h5>
+        <a href="tel:+917007145851" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">+917007145851</p></a>
+        <a href="mailto:kushjaiswal1836@gmail.com" target="_blank" rel="noopener noreferrer">kushjaiswal1836@gmail.com</a>
+      </div>
+      <div class="col-md-3 col-sm-5 col-xs-12 person">
+        <div class="personphoto sanial"></div>
+        <h3>Sanial das</h3>
+        <h5>(Frontend)</h5>
+        <a href="tel:+919490546945" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">+919490546945</p></a>
+        <a href="mailto:sanial2001@gmail.com" target="_blank" rel="noopener noreferrer">sanial2001@gmail.com</a>
+      </div>
+      <div class="col-md-3 col-sm-5 col-xs-12 person">
+        <div class="personphoto shubham"></div>
+        <h3>Shubham jain</h3>
+        <h5>(Frontend)</h5>
+        <a href="tel:+919910793801" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">+919910793801</p></a>
+        <a href="mailto:shubhamjain1922@gmail.com" target="_blank" rel="noopener noreferrer">shubhamjain1922@gmail.com</a>
+      </div>
+      <div class="col-md-4 col-sm-5 col-xs-12 person">
+        <div class="personphoto rahul"></div>
+        <h3>Rahul mahotra</h3>
+        <h5>(Frontend)</h5>
+        <a href="tel:+917006852494" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">+917006852494</p></a>
+        <a href="mailto:rahulmahotra707@gmail.com" target="_blank" rel="noopener noreferrer">rahulmahotra707@gmail.com</a>
+      </div>
+      <div class="col-md-4 col-sm-5 col-xs-12 person">
+        <div class="personphoto javeed"></div>
+        <h3>Javeed Yara</h3>
+        <h5>(Backend)</h5>
+        <a href="tel:+917093170825" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">+917093170825</p></a>
+        <a href="mailto:javeedymd.iiitg@gmail.com" target="_blank" rel="noopener noreferrer">javeedymd.iiitg@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>
+</html>
