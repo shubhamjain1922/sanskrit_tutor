@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sanskrit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.nav-links {
+  margin-left: auto; 
+}
+
+.nav-title {
+  margin-right: auto; 
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:1050px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+body { 
+  margin: 0;
+  background-color: #eee;
+}
+
+.jumbotron { 
+  padding: 50px; /* fills out the jumbotron */
+  background-color: #111;
+}
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_jumbo {
+  margin: 0 auto;  /* centers the container */
+  padding: 0 15px; /* adds some padding to the left and right*/
+}
+
+.jumbotron h1{ 
+  text-align: center; /* centers the heading */
+  color: #DDD;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.jumbotron p {
+  text-align: center; /* centers the heading */
+  color: #DDD;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+  #features{
+    /*background-color: #212529;*/
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .feature-box{
+    text-align: center;
+    padding: 40px 50px;
+  }
+
+  .card {
+    background-color: transparent;
+    /*color: white;*/
+    border: none;
+    border: 1px solid black;
+  }
+
+  .card-img-top {
+    height: 15vw;
+    
+  }
+
+  .btn {
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .card-img-top {
+      width: 100%;
+      height: 250px;
+    }
+
+  }
+
+</style>
+  
+</head>
+<body>
+
+<div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      Welcome to Sanskrit Guide
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="index.html" ><b>HOME</b></a>
+    <a href="aboutus/aboutus.html" ><b>ABOUT US</b></a>
+    <a href="dictionary/index.html" ><b>DICTIONARY</b></a>
+    <a href="quiz/index.html" ><b>QUIZ</b></a>
+    <a href="trans/index.html" ><b>TRANSLATOR</b></a>
+    <a href="pronun/index.html" ><b>PRONUNCIATION</b></a>
+  </div>
+</div>
+
+ <div class="jumbotron">
+  <div class="jumbotron text-white jumbotron-image shadow" style="background-image:  url(jumbotron.jfif);">
+    <div class="container_jumbo">
+      <h1>SANSKRIT GUIDE</h1>
+      <p>Learn sanskrit in a fun and easy way</p>
+    </div>
+  </div>
+  </div>
+
+
+  <section id="features">
+    <div class="container">
+      <div class="row">
+
+        <div class="feature-box col-md-6">
+          <div class="card meal_box">
+            <img src="translate.jpg" class="card-img-top" alt="Breakfast">
+            <div class="card-body">
+              <h3 class="card-title">Translator</h3>
+              <p class="card-text">English to sanskrit and sanskrit to english translator.</p>
+              <a href="trans/index.html" class="btn btn-success">Start learning</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="feature-box col-md-6">
+          <div class="card meal_box">
+            <img src="dictionary.jpg" class="card-img-top" alt="Lunch">
+            <div class="card-body">
+              <h3 class="card-title">Dictionary</h3>
+              <p class="card-text">Know the meaning of sanskrit and english words.</p>
+              <a href="dictionary/index.html" class="btn btn-success">Start learning</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-box col-md-6">
+          <div class="card meal_box">
+            <img src="pro.jpg" class="card-img-top" alt="Dinner">
+            <div class="card-body">
+              <h3 class="card-title">Pronunciation</h3>
+              <p class="card-text">Learn how to prononuce sanskrit and english words correctly.</p>
+              <a href="pronun/index.html" class="btn btn-success">Start learning</a>
+            </div>
+          </div>
+        </div>
+        <div class="feature-box col-md-6">
+          <div class="card meal_box">
+            <img src="quiz.jpg" class="card-img-top" alt="Dinner">
+            <div class="card-body">
+              <h3 class="card-title">Quiz</h3>
+              <p class="card-text">Test your knowledge and see how much sanskrit do you know.</p>
+              <a href="quiz/index.html" class="btn btn-success">Start learning</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>
+</html>
