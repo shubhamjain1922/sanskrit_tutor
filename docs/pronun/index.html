@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      Learn Pronunciation
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="../index.html" ><b>HOME</b></a>
+    <a href="../aboutus/aboutus.html" ><b>ABOUT US</b></a>
+    <a href="../dictionary/index.html" ><b>DICTIONARY</b></a>
+    <a href="../quiz/index.html" ><b>QUIZ</b></a>
+    <a href="../trans/index.html" ><b>TRANSLATOR</b></a>
+    <a href="index.html" ><b>PRONUNCIATION</b></a>
+  </div>
+</div>
+    <div class="container">
+        <h1>LEARN HOW TO PRONOUNCE SANSKRIT WORDS</h1>
+        <div class="row">
+        <div class="col-sm-3 col-xs-2 word-box">
+        </div>
+        <div class="col-sm-9 col-xs-10 search">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Enter the Sanskrit text</label>
+              <input type="text" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="butt">
+            <button id="button">Sound</button>
+          </div>
+          </form>  
+        <audio id="audio" controls hidden></audio>
+      </div> 
+      </div>  
+    </div>
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="voiceRSS.js"></script>
+    <script src="script.js"></script>
+    <script src="dictionary.json"></script>
+    <script>
+      $('.word-box').append("<div class= 'words'></div>");
+      var arr=[];
+    function setDefault(sd)
+    {
+      data = sd;
+      for(var i=0;i<197;i++)
+    {
+      arr.push(Object.keys(data)[i]);
+    }
+    console.log(arr);
+    }
+  
+    function inputForm(x){
+      data=dictionary;
+      var word=data[x].meanings[0].def;
+      $('input[type="text"]').val(word);
+    }
+    setDefault(dictionary);
+      for(var i=0;i<arr.length;i++)
+      {
+        {$('.words').append("<div class='single-word'>"+arr[i]+"</div> ");
+        }
+      }
+      $('.single-word').click(function(){
+        var x = $(this).html();
+        inputForm(x);
+      });
+    </script>
+</body>
+</html>
