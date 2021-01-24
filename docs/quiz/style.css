@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Redressed&display=swap');
+
+:root{
+    background-color: #222831;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Redressed', cursive;
+    font-size: 4.8rem;
+    color:#dddddd;
+    margin-bottom: 3rem;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 2.4rem;
+    color: #11698e;
+    padding: 2rem 0;
+    width: 18rem;
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    background: rgb(11, 233, 122);
+    border-radius: 8px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8,114,244,0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}

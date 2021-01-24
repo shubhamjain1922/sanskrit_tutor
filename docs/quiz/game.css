@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    color:#dddddd;
+}
+* {
+    font-size: 65%;
+}
+
+.choice-container{
+    display:flex;
+    margin-bottom: 2rem;
+    width:100%;
+    border-radius: 6px;
+    background: #a2dbdb;
+    font-size: 3rem;
+    min-width: 80rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103,247,0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix{
+    padding: 2rem ;
+    color: #333456;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+    color: #0e0101; 
+}
+
+.correct{
+    background: rgb(144, 235, 54);  
+}
+
+.incorrect{
+    background: rgb(214, 27, 64);
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hub-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(144, 235, 54);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull{
+    height: 100%;
+    background: rgb(144, 235, 54);
+    width: 0;
+}
+
+@media screen and (max-width: 768px){
+    .choice-container{
+        min-width: 50rem;
+    }
+}
