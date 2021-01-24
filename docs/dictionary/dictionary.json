@@ -1,0 +1,2122 @@
+dictionary = {
+    "I": {
+        "word": "I",
+        "wordset_id": "54bd55de7265742391100000",
+        "meanings": [
+            {
+                "id": "54bd55de7265742391120000",
+                "def": "अहम्",
+                "speech_part": "aham",
+            }
+        ]
+    },
+    "he": {
+        "word": "he",
+        "wordset_id": "54bd55df7265742391010400",
+        "meanings": [
+            {
+                "id": "54bd55df7265742391030400",
+                "def": "स",
+                "speech_part": "sa"
+            }
+        ]
+    },
+    "we": {
+        "word": "we",
+        "wordset_id": "54bd55df7265742391040400",
+        "meanings": [
+            {
+                "id": "54bd55df7265742391060400",
+                "def": "iवयम्",
+                "speech_part": "vayám"
+            }
+        ]
+    },
+    "they": {
+        "word": "they",
+        "wordset_id": "54bd55df72657423910e0100",
+        "meanings": [
+            {
+                "id": "54bd55df7265742391100100",
+                "def": "ते",
+                "speech_part": "te"
+            }
+        ]
+    },
+    "here": {
+        "word": "here",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अत्र",
+                "speech_part": "atra"
+            }
+        ]
+    },
+    "there": {
+        "word": "there",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "तत्र",
+                "speech_part": "tatra"
+            }
+        ]
+    },
+    
+    "all": {
+        "word": "all",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सर्व",
+                "speech_part": "sárva"
+            }
+        ]
+    },
+    "not": {
+        "word": "not",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "न ",
+                "speech_part": "na"
+            }
+        ]
+    },
+    "many": {
+        "word": "many",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "बहु ",
+                "speech_part": "bahú"
+            }
+        ]
+    },
+    "some": {
+        "word": "some",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "किञ्चिद् ",
+                "speech_part": "kíñcid"
+            }
+        ]
+    },
+    "few": {
+        "word": "few",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अल्प",
+                "speech_part": "álpa"
+            }
+        ]
+    },
+    "other": {
+        "word": "other",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अन्य",
+                "speech_part": "anya"
+            }
+        ]
+    },
+   
+    "one": {
+        "word": "one",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "एक",
+                "speech_part": "eka"
+            }
+        ]
+    },
+    "two": {
+        "word": "two",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "द्वि",
+                "speech_part": "dvi"
+            }
+        ]
+    },
+    "three": {
+        "word": "three",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "त्रि",
+                "speech_part": "tri"
+            }
+        ]
+    },
+    "four": {
+        "word": "four",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "चतुर्",
+                "speech_part": "chatur"
+            }
+        ]
+    },
+    "five": {
+        "word": "five",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पञ्ज ",
+                "speech_part": "pancha"
+            }
+        ]
+    },
+    "big": {
+        "word": "big",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "महत्",
+                "speech_part": "mahat"
+            }
+        ]
+    },
+    "long": {
+        "word": "long",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दीर्घ",
+                "speech_part": "dirgha"
+            }
+        ]
+    },
+    "wide": {
+        "word": "wide",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "उरु",
+                "speech_part": "urú"
+            }
+        ]
+    },
+    "thick": {
+        "word": "thick",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "घन",
+                "speech_part": "ghana"
+            }
+        ]
+    },
+    "heavy": {
+        "word": "heavy",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "गुरु",
+                "speech_part": "guru"
+            }
+        ]
+    },
+    "small": {
+        "word": "small",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अल्प",
+                "speech_part": "alpa"
+            }
+        ]
+    },
+    "short": {
+        "word": "short",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "ह्रस्व",
+                "speech_part": "hrasva"
+            }
+        ]
+    },
+    "narrow": {
+        "word": "narrow",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अंहु",
+                "speech_part": "aṃhú"
+            }
+        ]
+    },
+    "thin": {
+        "word": "thin",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "तनु",
+                "speech_part": "tanú"
+            }
+        ]
+    },
+    "woman": {
+        "word": "woman",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "स्त्री ",
+                "speech_part": "stri"
+            }
+        ]
+    },
+    "man": {
+        "word": "man",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पुरुष ",
+                "speech_part": "púruṣa"
+            }
+        ]
+    },
+    "man": {
+        "word": "man",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मनुष्य",
+                "speech_part": "manushya"
+            }
+        ]
+    },
+    "child": {
+        "word": "child",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "बाल ",
+                "speech_part": "bala"
+            }
+        ]
+    },
+    "short": {
+        "word": "short",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "ह्रस्व",
+                "speech_part": "hrasva"
+            }
+        ]
+    },
+    "wife": {
+        "word": "wife",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "भार्या॑ ",
+                "speech_part": "bharya"
+            }
+        ]
+    },
+    "husband": {
+        "word": "husband",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पति",
+                "speech_part": "pati"
+            }
+        ]
+    },
+    "mother": {
+        "word": "mother",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मातृ",
+                "speech_part": "mathru"
+            }
+        ]
+    },
+    "father": {
+        "word": "father",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पितृ",
+                "speech_part": "pithru"
+            }
+        ]
+    },
+    "animal": {
+        "word": "animal",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पशु",
+                "speech_part": "pasu"
+            }
+        ]
+    },
+    "fish": {
+        "word": "fish",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मत्स्य ",
+                "speech_part": "matsya"
+            }
+        ]
+    },
+    "bird": {
+        "word": "bird",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वि",
+                "speech_part": "vi"
+            }
+        ]
+    },
+    "dog": {
+        "word": "dog",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "श्वानः",
+                "speech_part": "svanah"
+            }
+        ]
+    },
+    "louse": {
+        "word": "louse",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "यूका",
+                "speech_part": "yuka"
+            }
+        ]
+    },
+    "snake": {
+        "word": "snake",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सर्प",
+                "speech_part": "sarpa"
+            }
+        ]
+    },
+    "worm": {
+        "word": "worm",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "कृमि ",
+                "speech_part": "krimi"
+            }
+        ]
+    },
+    "tree": {
+        "word": "tree",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वृक्ष",
+                "speech_part": "vruksha"
+            }
+        ]
+    },
+    "forest": {
+        "word": "forest",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वन",
+                "speech_part": "vana"
+            }
+        ]
+    },
+    "stick": {
+        "word": "stick",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दण्ड ",
+                "speech_part": "Danda"
+            }
+        ]
+    },
+    "fruit": {
+        "word": "fruit",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "फल ",
+                "speech_part": "phal"
+            }
+        ]
+    },
+    "seed": {
+        "word": "seed",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "भीज ",
+                "speech_part": "beej"
+            }
+        ]
+    },
+    "leaf": {
+        "word": "leaf",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पत्त्र ",
+                "speech_part": "pattra"
+            }
+        ]
+    },
+    "root": {
+        "word": "root",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मूल ",
+                "speech_part": "mula"
+            }
+        ]
+    },
+    "bark": {
+        "word": "bark",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "त्वच्",
+                "speech_part": "tvach"
+            }
+        ]
+    },
+    "flower": {
+        "word": "flower",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पुष्प ",
+                "speech_part": "pushpa"
+            }
+        ]
+    },
+    "grass": {
+        "word": "grass",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "तृण",
+                "speech_part": "thruna"
+            }
+        ]
+    },
+    "rope": {
+        "word": "bark",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "रज्जु",
+                "speech_part": "rajju"
+            }
+        ]
+    },
+    "skin": {
+        "word": "skin",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "चर्मन् ",
+                "speech_part": "charman"
+            }
+        ]
+    },
+    "meat": {
+        "word": "meat",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मांस ",
+                "speech_part": "mamsa"
+            }
+        ]
+    },
+    "blood": {
+        "word": "blood",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "असृज्",
+                "speech_part": "asruj"
+            }
+        ]
+    },
+    "bone": {
+        "word": "bone",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अस्थि",
+                "speech_part": "asthi"
+            }
+        ]
+    },
+    "fat": {
+        "word": "fat",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पीवस् ",
+                "speech_part": "pivas"
+            }
+        ]
+    },
+    "egg": {
+        "word": "egg",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अण्ड",
+                "speech_part": "anda"
+            }
+        ]
+    },
+    "horn": {
+        "word": "horn",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "शृङ्ग ",
+                "speech_part": "srnga"
+            }
+        ]
+    },
+    "tail": {
+        "word": "tail",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पुच्छ",
+                "speech_part": "puuch"
+            }
+        ]
+    },
+    "feather": {
+        "word": "feather",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पर्ण",
+                "speech_part": "parna"
+            }
+        ]
+    },
+    "hair": {
+        "word": "hair",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "केश",
+                "speech_part": "kesha"
+            }
+        ]
+    },
+    "head": {
+        "word": "head",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "शिरस्",
+                "speech_part": "siras"
+            }
+        ]
+    },
+    "ear": {
+        "word": "ear",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "कर्ण ",
+                "speech_part": "karna"
+            }
+        ]
+    },
+    "eye": {
+        "word": "eye",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अक्षि",
+                "speech_part": "akshi"
+            }
+        ]
+    },
+    "nose": {
+        "word": "nose",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "नासिक",
+                "speech_part": "nasika"
+            }
+        ]
+    },
+    "mouth": {
+        "word": "mouth",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मुख",
+                "speech_part": "mukha"
+            }
+        ]
+    },
+    "tail": {
+        "word": "tail",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पुच्छ",
+                "speech_part": "puuch"
+            }
+        ]
+    },
+    "tooth": {
+        "word": "tooth",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दत्/दन्त",
+                "speech_part": "dant"
+            }
+        ]
+    },
+    "tongue": {
+        "word": "tongue",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "जिह्व/जिह्वा ",
+                "speech_part": "jihva"
+            }
+        ]
+    },
+    "fingernail": {
+        "word": "fingernail",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "नख",
+                "speech_part": "nakha"
+            }
+        ]
+    },
+    "foot": {
+        "word": "foot",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पद",
+                "speech_part": "pada"
+            }
+        ]
+    },
+    "leg": {
+        "word": "leg",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "जङ्घ",
+                "speech_part": "jangha"
+            }
+        ]
+    },
+    "knee": {
+        "word": "knee",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "जानु",
+                "speech_part": "janu"
+            }
+        ]
+    },
+    "hand": {
+        "word": "hand",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "हस्त ",
+                "speech_part": "hasta"
+            }
+        ]
+    },
+    "wing": {
+        "word": "wing",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पक्ष",
+                "speech_part": "paksha"
+            }
+        ]
+    },
+    "belly": {
+        "word": "belly",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "उदर ",
+                "speech_part": "udara"
+            }
+        ]
+    },
+    "guts": {
+        "word": "guts",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "गुद",
+                "speech_part": "guda"
+            }
+        ]
+    },
+    "neck": {
+        "word": "neck",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "कण्ठ ",
+                "speech_part": "kanta"
+            }
+        ]
+    },
+    "back": {
+        "word": "back",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पृष्ठ",
+                "speech_part": "prstha"
+            }
+        ]
+    },
+    "breast": {
+        "word": "breast",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "स्तन",
+                "speech_part": "stana"
+            }
+        ]
+    },
+    "heart": {
+        "word": "heart",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "हृदय",
+                "speech_part": "hardik"
+            }
+        ]
+    },
+    "liver": {
+        "word": "liver",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "यकृत् ",
+                "speech_part": "yukrt"
+            }
+        ]
+    },
+    "drink": {
+        "word": "drink",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पा – पिबति",
+                "speech_part": "pa-pibati"
+            }
+        ]
+    },
+    "eat": {
+        "word": "eat",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अद् – अत्ति",
+                "speech_part": "ad-atti"
+            }
+        ]
+    },
+    "bite": {
+        "word": "bite",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दंश् – दंशति ",
+                "speech_part": "=dams-damsati"
+            }
+        ]
+    },
+    "suck":{
+        "word": "suck",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "धे – धयति ",
+                "speech_part": "dhe-dhayati"
+            }
+        ]
+    },
+    "spit": {
+        "word": "spit",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "ष्ठिव् – ष्ठिवति/ष्ठीव्यति ",
+                "speech_part": "ṣṭiv – ṣṭívati/ṣṭhī́vyati"
+            }
+        ]
+    },
+    "vomit": {
+        "word": "vomit",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वम् – वमति ",
+                "speech_part": "vam – vámati"
+            }
+        ]
+    },
+    "blow": {
+        "word": "blow",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वा – वाति ",
+                "speech_part": "va-vati"
+            }
+        ]
+    },
+    "breathe": {
+        "word": "breathe",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अन् – अनिति",
+                "speech_part": "an-aniti"
+            }
+        ]
+    },
+    "laugh": {
+        "word": "laugh",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "हस्- हसति ",
+                "speech_part": "has-hasati"
+            }
+        ]
+    },
+    "see": {
+        "word": "see",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दृश् ",
+                "speech_part": "drushy"
+            }
+        ]
+    },
+    "hear": {
+        "word": "hear",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "श्रु- शृणोति",
+                "speech_part": "sru-srnoti"
+            }
+        ]
+    },
+    "know": {
+        "word": "know",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "ज्ञा- जानाति",
+                "speech_part": "jna-jnati"
+            }
+        ]
+    },
+    "think": {
+        "word": "think",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "चिन्त् – चिन्तयति",
+                "speech_part": "chint-chintayati"
+            }
+        ]
+    },
+    "smell": {
+        "word": "smell",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "घ्रा- जिघ्रति",
+                "speech_part": "ghrā – jíghrati"
+            }
+        ]
+    },
+    "fear": {
+        "word": "fear",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "भी – बिभेति",
+                "speech_part": "bhī – bibhéti"
+            }
+        ]
+    },
+    "sleep": {
+        "word": "sleep",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "स्वप्- स्वपिति ",
+                "speech_part": "svap – svápiti"
+            }
+        ]
+    },
+    "live": {
+        "word": "live",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "जीव्- जीवति ",
+                "speech_part": "jīv – jī́vati"
+            }
+        ]
+    },
+    "die": {
+        "word": "die",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मृ – म्रियते",
+                "speech_part": "mru – mriyáte"
+            }
+        ]
+    },
+    "kill": {
+        "word": "kill",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "हन् – हन्ति",
+                "speech_part": "han – hánti"
+            }
+        ]
+    },
+    "fight": {
+        "word": "fight",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "युध् – युध्यते ",
+                "speech_part": "yudh – yúdhyate"
+            }
+        ]
+    },
+    "hunt": {
+        "word": "hunt",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मृग् – मृगयते",
+                "speech_part": "mṛga – mṛgáyate"
+            }
+        ]
+    },
+    "hit": {
+        "word": "hit",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "हन् – हन्ति",
+                "speech_part": "han – hánti"
+            }
+        ]
+    },
+    "cut": {
+        "word": "cut",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "कृत् – कृन्तति ",
+                "speech_part": "kṛt – kṛntáti"
+            }
+        ]
+    },
+    "split": {
+        "word": "split",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "भिद्- भिनत्ति ",
+                "speech_part": "bhid – bhinátti"
+            }
+        ]
+    },
+    "stab": {
+        "word": "stab",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "व्यध्- विधति ",
+                "speech_part": "vyadh – vídhyati"
+            }
+        ]
+    },
+    "scratch": {
+        "word": "scratch",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "लिख् – – लिखति ",
+                "speech_part": "likh – likháti"
+            }
+        ]
+    },
+    "dig": {
+        "word": "dig",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "खन् – खनति",
+                "speech_part": "khan – khánati"
+            }
+        ]
+    },
+    "swim": {
+        "word": "swim",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "प्लु- प्लवते",
+                "speech_part": "plu-plavate"
+            }
+        ]
+    },
+    "fly": {
+        "word": "fly",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पत् – पतति ",
+                "speech_part": "पत् – पतति "
+            }
+        ]
+    },
+    "walk": {
+        "word": "walk",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "गम् – गच्छति ",
+                "speech_part": "gam – gácchati"
+            }
+        ]
+    },
+    "come": {
+        "word": "come",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "आगम् – आगच्छति ",
+                "speech_part": "āgam – ā́gacchati"
+            }
+        ]
+    },
+    "lie": {
+        "word": "",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "शी- शेते ",
+                "speech_part": "shi-shete"
+            }
+        ]
+    },
+    "sit": {
+        "word": "sit",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सद् – सीदति",
+                "speech_part": "sad – sī́dati"
+            }
+        ]
+    },
+    "stand": {
+        "word": "stand",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "स्था – तिष्ठति ",
+                "speech_part": "sthā – tíṣṭhati"
+            }
+        ]
+    },
+    "turn": {
+        "word": "turn",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वृत् – वर्तते ",
+                "speech_part": "vrut-vartate"
+            }
+        ]
+    },
+    "fall": {
+        "word": "fall",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पद् – पद्यते",
+                "speech_part": "pad – pádyate"
+            }
+        ]
+    },
+    "give": {
+        "word": "give",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दा – ददाति ",
+                "speech_part": "dā – dádāti"
+            }
+        ]
+    },
+    "hold": {
+        "word": "hold",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "धृ – धरति ",
+                "speech_part": "dhr – dhárati"
+            }
+        ]
+    },
+    "squeeze": {
+        "word": "squeeze",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मृद् – मृद्नाति",
+                "speech_part": "mrud-mrudnati"
+            }
+        ]
+    },
+    "rub": {
+        "word": "rub",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "घृष् – घर्षति",
+                "speech_part": "ghṛṣ – ghárṣati"
+            }
+        ]
+    },
+    "wash": {
+        "word": "wash",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "क्षल् – क्षालयति",
+                "speech_part": "kṣal – kṣā́layati"
+            }
+        ]
+    },
+    "wipe": {
+        "word": "wipe",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मृज् – मार्ष्टि",
+                "speech_part": "mṛj – marṣṭi"
+            }
+        ]
+    },
+    "pull": {
+        "word": "pull",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "कृष् – कर्षति  ",
+                "speech_part": "kṛṣh – karṣati"
+            }
+        ]
+    },
+    "push": {
+        "word": "push",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "नुद् – नुदति",
+                "speech_part": "nud-nudati"
+            }
+        ]
+    },
+    "throw": {
+        "word": "throw",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "क्षिप् – क्षिपति ",
+                "speech_part": "kshi-kshipati"
+            }
+        ]
+    },
+    "tie": {
+        "word": "tie",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "बन्ध् – बध्नाति ",
+                "speech_part": "bandh – badhnā́ti"
+            }
+        ]
+    },
+    "sew": {
+        "word": "sew",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सिव् – सीव्यति ",
+                "speech_part": "siv – sī́vyati"
+            }
+        ]
+    },
+    "count": {
+        "word": "count",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "गण् – गणयति",
+                "speech_part": "gaṇ – gáṇayat"
+            }
+        ]
+    },
+    "say": {
+        "word": "say",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वच् – वक्ति",
+                "speech_part": "vach-vakti"
+            }
+        ]
+    },
+    "sing": {
+        "word": "sing",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "गै- गायति ",
+                "speech_part": "gāi – gā́yati"
+            }
+        ]
+    },
+    "play": {
+        "word": "play",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दिव् – दीव्यति",
+                "speech_part": "div – dī́vyati"
+            }
+        ]
+    },
+    "say": {
+        "word": "say",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वच् – वक्ति",
+                "speech_part": "vach-vakti"
+            }
+        ]
+    },
+    "float": {
+        "word": "float",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "प्लु – प्लवते",
+                "speech_part": "plu – plávate"
+            }
+        ]
+    },
+    "flow": {
+        "word": "flow",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सृ – सरति",
+                "speech_part": "sru-sarati"
+            }
+        ]
+    },
+    "freeze": {
+        "word": "freeze",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "श्यै – शीयते",
+                "speech_part": "shaye-sheeyate"
+            }
+        ]
+    },
+    "swell": {
+        "word": "swell",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "श्वि – श्वयति",
+                "speech_part": "shvi-shvayati"
+            }
+        ]
+    },
+    "sun": {
+        "word": "sun",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सूर्य",
+                "speech_part": "Surya"
+            }
+        ]
+    },
+    "moon": {
+        "word": "moon",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "चन्द्र",
+                "speech_part": "chandra"
+            }
+        ]
+    },
+    "star": {
+        "word": "star",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "नक्षत्र",
+                "speech_part": "nakshatra"
+            }
+        ]
+    },
+    "water": {
+        "word": "water",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "जल",
+                "speech_part": "jalá"
+            }
+        ]
+    },
+    "rain": {
+        "word": "rain",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वर्ष",
+                "speech_part": "varsha"
+            }
+        ]
+    },
+    "river": {
+        "word": "river",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "नदी",
+                "speech_part": "nadi"
+            }
+        ]
+    },
+    "lake": {
+        "word": "lake",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सरस् ",
+                "speech_part": "saras"
+            }
+        ]
+    },
+    "sea": {
+        "word": "sea",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "उदधि ",
+                "speech_part": "udathi"
+            }
+        ]
+    },
+    "salt": {
+        "word": "salt",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "लवण ",
+                "speech_part": "lavana"
+            }
+        ]
+    },
+    "stone": {
+        "word": "stone",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अश्मन्",
+                "speech_part": "asman"
+            }
+        ]
+    },
+    "sand": {
+        "word": "sand",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पांसु",
+                "speech_part": "pamsu"
+            }
+        ]
+    },
+    "dust": {
+        "word": "dust",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "रेणु ",
+                "speech_part": "renu"
+            }
+        ]
+    },
+    "earth": {
+        "word": "earth",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": " पृथिवी",
+                "speech_part": "prithvi"
+            }
+        ]
+    },
+    "cloud": {
+        "word": "cloud",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मेघ",
+                "speech_part": "megha"
+            }
+        ]
+    },
+    "fog": {
+        "word": "fog",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मिह्",
+                "speech_part": "mih"
+            }
+        ]
+    },
+    "sky": {
+        "word": "sky",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "आकाश",
+                "speech_part": "aakash"
+            }
+        ]
+    },
+    "wind": {
+        "word": "wind",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वायु ",
+                "speech_part": "vayu"
+            }
+        ]
+    },
+    "snow": {
+        "word": "snow",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "हिम",
+                "speech_part": "hima"
+            }
+        ]
+    },
+    "smoke": {
+        "word": "smoke",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "धूम ",
+                "speech_part": "dhuma"
+            }
+        ]
+    },
+    "fire": {
+        "word": "fire",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अग्नि ",
+                "speech_part": "agni"
+            }
+        ]
+    },
+    "ash": {
+        "word": "ash",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "आस ",
+                "speech_part": "aas"
+            }
+        ]
+    },
+    "burn": {
+        "word": "burn",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दहति",
+                "speech_part": "dahati"
+            }
+        ]
+    },
+    "road": {
+        "word": "road",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मार्ग",
+                "speech_part": "marga"
+            }
+        ]
+    },
+    "mountain": {
+        "word": "mountain",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "गिरि ",
+                "speech_part": "Giri"
+            }
+        ]
+    },
+    "red": {
+        "word": "red",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "रोहित ",
+                "speech_part": "rohita"
+            }
+        ]
+    },
+    "green": {
+        "word": "green",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "हरित ",
+                "speech_part": "harita"
+            }
+        ]
+    },
+    "yellow": {
+        "word": "yellow",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पीतल",
+                "speech_part": "pitala"
+            }
+        ]
+    },
+    "white": {
+        "word": "white",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "अश्मन्",
+                "speech_part": "asman"
+            }
+        ]
+    },
+    "black": {
+        "word": "black",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "कृष्ण",
+                "speech_part": "krishna"
+            }
+        ]
+    },
+    "night": {
+        "word": "night",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "रात्र",
+                "speech_part": "rathra"
+            }
+        ]
+    },
+    "day": {
+        "word": "day",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "द्यु ",
+                "speech_part": "dyu"
+            }
+        ]
+    },
+    "year": {
+        "word": "year",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वर्ष ",
+                "speech_part": "varsha"
+            }
+        ]
+    },
+    "warm": {
+        "word": "warm",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "घर्म ",
+                "speech_part": "gharma"
+            }
+        ]
+    },
+    "cold": {
+        "word": "cold",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "शीत",
+                "speech_part": "sita"
+            }
+        ]
+    },
+    "full": {
+        "word": "full",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पूर्ण",
+                "speech_part": "purna"
+            }
+        ]
+    },
+    "new": {
+        "word": "new",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "नव",
+                "speech_part": "nava"
+            }
+        ]
+    },
+    "old": {
+        "word": "old",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "जीर्ण ",
+                "speech_part": "jirna"
+            }
+        ]
+    },
+    "good": {
+        "word": "good",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वसु ",
+                "speech_part": "vasu"
+            }
+        ]
+    },
+    "bad": {
+        "word": "bad",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पाप",
+                "speech_part": "paap"
+            }
+        ]
+    },
+    "rotten": {
+        "word": "rotten",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "पूति ",
+                "speech_part": "pruti"
+            }
+        ]
+    },
+    "dirty": {
+        "word": "dirty",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "मलिन",
+                "speech_part": "malina"
+            }
+        ]
+    },
+    "straight": {
+        "word": "straight",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "ऋजु ",
+                "speech_part": "truju"
+            }
+        ]
+    },
+
+	"round": {
+        "word": "round",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "वृत्त ",
+                "speech_part": "vrutta"
+            }
+        ]
+    },
+
+	"sharp": {
+        "word": "sharp",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "तीक्ष्ण",
+                "speech_part": "Tikshna"
+            }
+        ]
+    },
+
+	"dull": {
+        "word": "dull",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "कुण्ठ ",
+                "speech_part": "kuntha"
+            }
+        ]
+    },
+    "smooth": {
+        "word": "smooth",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "स्निग्ध",
+                "speech_part": "snigdha"
+            }
+        ]
+    },
+    "wet": {
+        "word": "wet",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "आर्द्र",
+                "speech_part": "ardra"
+            }
+        ]
+    },
+
+    "dry": {
+        "word": "dry",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "शुष्क",
+                "speech_part": "suska"
+            }
+        ]
+    },
+
+    "correct": {
+        "word": "correct",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "सत्य",
+                "speech_part": "satya"
+            }
+        ]
+    },
+
+    "near": {
+        "word": "near",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "प्रति",
+                "speech_part": "prati"
+            }
+        ]
+    },
+    "far": {
+        "word": "far",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दूर",
+                "speech_part": "dur"
+            }
+        ]
+    },
+    "right": {
+        "word": "right",
+        "wordset_id": "54bd55e27265742391a80f00",
+        "meanings": [
+            {
+                "id": "54bd55e27265742391aa0f00",
+                "def": "दक्षिण ",
+                "speech_part": "dakshina"
+            }
+        ]
+    }
+}

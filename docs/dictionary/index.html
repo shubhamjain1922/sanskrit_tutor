@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <style>
+
+    .nav {
+      height: 50px;
+      width: 100%;
+      background-color: #4d4d4d;
+      position: relative;
+    }
+
+    .nav-links {
+      margin-left: auto; 
+    }
+
+    .nav-title {
+      margin-right: auto; 
+    }
+
+    .nav > .nav-header {
+      display: inline;
+    }
+
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+
+    .nav > .nav-btn {
+      display: none;
+    }
+
+    .nav > .nav-links {
+      display: inline;
+      float: right;
+      font-size: 18px;
+    }
+
+    .nav > .nav-links > a {
+      display: inline-block;
+      padding: 13px 10px 12px 10px;
+      text-decoration: none;
+      color: #efefef;
+    }
+
+    .nav > .nav-links > a:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav > #nav-check {
+      display: none;
+    }
+
+    @media (max-width:1050px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #7952b3;
+      color: white;
+      margin-top: 50px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      padding: 10px;
+    }
+
+    .wrapper {
+      max-height: 570px;
+      border-bottom: 5px solid #7952b3; 
+    }
+
+    .meaning-box {
+      border: 1px solid gray;
+      max-height: 560px;
+      overflow: auto;
+    }
+
+    .word-box {
+      border: 1px solid gray;
+      background: #bfbfbf;
+      padding: 0;
+    }
+
+    .search-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:  10px;
+      border-bottom: 1px solid gray;
+    }
+
+    .word-search {
+      margin-right: 5px;
+      height: 35px;
+      padding: 5px;
+    }
+
+    .word-submit {
+      border-radius: 5px;
+      background: #7952b3;
+      color: white;
+      padding: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 0;
+    }
+
+    .words {
+      max-height: 500px;
+      overflow: auto;
+    }
+
+    .single-word {
+      text-align: center;
+      font-size: 1.3em;  
+      padding: 2px;
+    }
+
+    .cover {
+      opacity: 0.6;
+      color: gray;
+      margin-top: 15%;
+      align-items: center;
+      text-align: center;
+    }
+
+    .single-word:hover {
+      color: white;
+      cursor: pointer;
+    }
+
+    .b_speech {
+      background-color: #FFFF00;
+      padding: 4px;
+      border-radius: 5px;
+    }
+
+    .divider {
+      margin-bottom: 5px;
+      margin-top: 5px;
+      border-width: 2px;
+      border-color: lightgreen;
+    }
+
+    .well div {
+      margin-bottom: 20px;
+    }
+
+    .well {
+      transition: ease-in .2s;
+      -webkit-transition: ease-in .2s;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #bfbfbf;
+      padding: 10px;
+    }
+
+    .well:hover {
+      transform: scale(1.01);
+      -webkit-transform: scale(1.01);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      background-color: #835fb9;
+      color: white;
+    }
+
+    .well:hover .b_speech {
+      color: black;
+    }
+
+    .main-word {
+      text-align: center;
+      font-size: 2em;
+      font-weight: 700;
+      color: #7952b3;
+    }
+
+    .main-word:hover {
+      color: white;
+    }
+
+    button:focus, input:focus {
+      outline:0;
+    }
+
+    .extra {
+      margin-top: 20px;
+    }
+
+    @media (min-width: 771px) and (max-width: 996px) {
+      .word-search {
+        width: 100px;
+      }
+    }
+
+    @media (min-width: 575px) and (max-width: 770px) {
+      .word-search {
+        width: 70px;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        Dictionary
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="../index.html" ><b>HOME</b></a>
+      <a href="../aboutus/aboutus.html" ><b>ABOUT US</b></a>
+      <a href="index.html" ><b>DICTIONARY</b></a>
+      <a href="../quiz/index.html" ><b>QUIZ</b></a>
+      <a href="../trans/index.html" ><b>TRANSLATOR</b></a>
+      <a href="../pronun/index.html" ><b>PRONUNCIATION</b></a>
+    </div>
+  </div>
+
+  <header class="container">
+    <h1>Sanskrit Dictionary</h1>
+  </header>
+
+  <div class="container wrapper">
+    <div class="row">
+      <div class="col-sm-3 col-xs-2 word-box">
+      </div>
+      <div class="col-sm-9 col-xs-10 meaning-box">
+        <div class="cover">
+          <svg width="15em" height="15em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
+          <h1 class="extra">Search the word...</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src='_a.json'></script>
+  <script src='_b.json'></script>
+  <script src='_c.json'></script>
+  <script src='_d.json'></script>
+  <script src='_e.json'></script>
+  <script src='_f.json'></script>
+  <script src='_g.json'></script>
+  <script src='_h.json'></script>
+  <script src='_i.json'></script>
+  <script src='_j.json'></script>
+  <script src='_k.json'></script>
+  <script src='_l.json'></script>
+  <script src='_m.json'></script>
+  <script src='_n.json'></script>
+  <script src='_o.json'></script>
+  <script src='_p.json'></script>
+  <script src='_q.json'></script>
+  <script src='_r.json'></script>
+  <script src='_s.json'></script>
+  <script src='_t.json'></script>
+  <script src='_u.json'></script>
+  <script src='_v.json'></script>
+  <script src='_w.json'></script>
+  <script src='_x.json'></script>
+  <script src='_y.json'></script>
+  <script src='_z.json'></script>
+  <script src='dictionary.json'></script>
+  <script>
+
+    $('.word-box').append("<div class= words></div>");
+
+    $('.word-search').keypress(function (e) {
+      if (e.which == 13) {
+        var x=$('.word-search').val();
+        wordmeaning(""+x+"");
+        $('.word-search').val("");
+        return false;
+      }
+    });
+
+    $('.word-submit').click(function(){
+      var x=$('.word-search').val();
+      wordmeaning(""+x+"");
+      $('.word-search').val("");
+    });
+
+    function wordmeaning(l,wordmain){
+      wordmain=wordmain+" ( "+l+" ) ";
+      b_word = l;
+      b_word = b_word.toLowerCase();
+
+      if (b_word[0] == 'a') {
+        data = dictionary_a;
+      } else if (b_word[0] == 'b') {
+        data = dictionary_b;
+      } else if (b_word[0] == 'c') {
+        data = dictionary_c;
+      } else if (b_word[0] == 'd') {
+        data = dictionary_d;
+      } else if (b_word[0] == 'e') {
+        data = dictionary_e;
+      } else if (b_word[0] == 'f') {
+        data = dictionary_f;
+      } else if (b_word[0] == 'g') {
+        data = dictionary_g;
+      } else if (b_word[0] == 'h') {
+        data = dictionary_h;
+      } else if (b_word[0] == 'i') {
+        data = dictionary_i;
+      } else if (b_word[0] == 'j') {
+        data = dictionary_j;
+      } else if (b_word[0] == 'k') {
+        data = dictionary_k;
+      } else if (b_word[0] == 'l') {
+        data = dictionary_l;
+      } else if (b_word[0] == 'm') {
+        data = dictionary_m;
+      } else if (b_word[0] == 'n') {
+        data = dictionary_n;
+      } else if (b_word[0] == 'o') {
+        data = dictionary_o;
+      } else if (b_word[0] == 'p') {
+        data = dictionary_p;
+      } else if (b_word[0] == 'q') {
+        data = dictionary_q;
+      } else if (b_word[0] == 'r') {
+        data = dictionary_r;
+      } else if (b_word[0] == 's') {
+        data = dictionary_s;
+      } else if (b_word[0] == 't') {
+        data = dictionary_t;
+      } else if (b_word[0] == 'u') {
+        data = dictionary_u;
+      } else if (b_word[0] == 'v') {
+        data = dictionary_v;
+      } else if (b_word[0] == 'w') {
+        data = dictionary_w;
+      } else if (b_word[0] == 'x') {
+        data = dictionary_x;
+      } else if (b_word[0] == 'y') {
+        data = dictionary_y;
+      } else if (b_word[0] == 'z') {
+        data = dictionary_z;
+      }
+      jsonWord = data[b_word].meanings;
+      $(".meaning-box").html("<div class='well main-word'>" + wordmain + "</div>")
+      for (i = 0; i < jsonWord.length; i++) {
+        var jsonarray = jsonWord[i];
+        $(".meaning-box").append("<div class='well' id='panel" + i + "'></div>");
+        if (jsonarray.speech_part != undefined) {
+          $("#panel" + i).append("<div class='box'><span class='b_speech'>" + jsonarray.speech_part + "</span></div>");
+        }
+        if (jsonarray.def != undefined) {
+          $("#panel" + i).append("<div class=''>" + jsonarray.def + "</div>");
+        }
+        if (jsonarray.synonyms != undefined) {
+          $("#panel" + i).append("<div class=''><b>Synonyms: </b>" + jsonarray.synonyms.join(', ') + "</div>");
+        }
+      }
+     
+    }
+    var arr=[];
+    var arr1=[];
+    function setDefault(sd)
+    {
+      data = sd;
+      for(var i=0;i<185;i++)
+    {
+      arr.push(data[Object.keys(data)[i]].meanings[0].def);
+      arr1.push(Object.keys(data)[i]);
+    }
+    }
+     setDefault(dictionary);
+    
+     
+    for(var i=0;i<arr.length;i++)
+    {
+      {$('.words').append("<div class='single-word'>"+arr[i]+"</div> ");
+    }
+    }
+    
+    
+
+      $('.single-word').click(function(){
+        var x = $(this).html();
+        var y=arr.indexOf(x);
+        
+         wordmeaning(""+arr1[y]+"",""+x+"");
+      });
+    </script>
+  </body>
+  </html>
